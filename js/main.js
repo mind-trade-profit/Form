@@ -3,6 +3,4 @@
 //3°:Mostramos mensaje que los datos se enviaron con exito
 
 
-let buckUpData = () =>{
-    
-}
+alert("hello")
