@@ -1,6 +1,6 @@
-//Cuando el usuario clicquee en el boton de SignUp se lo reeenviará a la main page 
-//luego los datos se subirán a un storageTemp
-// si los datos del usuario no estan completos en los campos se le pedirá que los complete
+//1°: Extraer los datos del usuario y guardarlos en un bukup
+//2°:Cuando el usuario haga click en el botón, se enviarán los datos al Storage
+//3°:Mostramos mensaje que los datos se enviaron con exito
 
 
 let buckUpData = () =>{
