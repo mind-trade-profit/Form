@@ -1,5 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-image: linear-gradient(to top left, white grey);
+  background-image: linear-gradient(to top left, white, grey);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .outBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  padding: 20px;
+  background-image: linear-gradient(to top left, white, #949B9B);
+  border: 2px solid white;
+  outline: 4px solid #192027;
+  border-radius: 50px;
+  margin-top: 120px;
+  box-shadow: 0 0 12px 10px;
+}
+main #SignUp {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+main #SignUp h1 {
+  font-size: 70px;
+  margin-top: -20px;
+}
+main #SignUp h2 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+main #SignUp form {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #SignUp form .inputForm {
+  all: unset;
+  width: 380px;
+  margin-bottom: 20px;
+  padding: 26px;
+  border: 2px grey solid;
+  outline: 2px white solid;
+  border-radius: 20px;
+  background-color: #1B2230;
+  color: white;
+}
+main #SignUp form .inputForm:focus {
+  box-shadow: 0 0 20px 1px gold;
+}
+main #sendForm {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #sendForm .buttonStyleSignUp {
+  width: 400px;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-image: linear-gradient(to top, #0077A9, #0AC8DC);
+  text-align: center;
+  box-shadow: inset -3px -3px 10px black;
+  border-radius: 30px;
+  outline: 1px solid #146084;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+main #sendForm .buttonStyleSignUp:hover {
+  width: 350px;
+  padding: 18px;
+  background-image: linear-gradient(to top, white, grey);
+  color: black;
+}
+main #sendForm .textAlert p {
+  font-size: 19px;
+}
+main #sendForm .buttonStyleLogIn {
+  all: unset;
+  font-size: 30px;
+  cursor: pointer;
+}
+main #sendForm .buttonStyleLogIn:hover {
+  color: rgb(165, 44, 235);
 }
 
 /*# sourceMappingURL=style.css.map */

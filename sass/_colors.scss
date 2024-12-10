@@ -1,0 +1,22 @@
+@mixin Button_send{
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-image: linear-gradient(to top ,#0077A9,#0AC8DC  );
+    text-align: center;
+    box-shadow: inset -3px -3px 10px black ;
+    border-radius: 30px;;
+    outline: 1px solid #146084;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        width: 350px;
+        padding: 18px;
+        background-image: linear-gradient( to top, white, grey);
+        color: black;
+        
+    }
+}
