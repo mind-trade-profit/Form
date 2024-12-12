@@ -77,8 +77,8 @@ main #sendForm {
   align-items: center;
 }
 main #sendForm .buttonStyleSignUp {
-  width: 400px;
-  padding: 20px;
+  width: 350px;
+  padding: 17px;
   margin-top: 20px;
   color: white;
   background-image: linear-gradient(to top, #0077A9, #0AC8DC);
