@@ -23,7 +23,7 @@ main .outBox {
   justify-content: center;
   align-items: center;
   width: 500px;
-  height: 600px;
+  height: 700px;
   padding: 20px;
   background-image: linear-gradient(to top left, white, #949B9B);
   border: 2px solid white;
@@ -39,7 +39,7 @@ main #SignUp {
 }
 main #SignUp h1 {
   font-size: 70px;
-  margin-top: -20px;
+  margin-top: -75px;
 }
 main #SignUp h2 {
   font-size: 20px;
@@ -69,14 +69,8 @@ main #SignUp form .inputForm {
 main #SignUp form .inputForm:focus {
   box-shadow: 0 0 20px 1px gold;
 }
-main #sendForm {
-  width: 380px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-main #sendForm .buttonStyleSignUp {
+main #SignUp form #sending {
+  all: unset;
   width: 350px;
   padding: 17px;
   margin-top: 20px;
@@ -90,19 +84,28 @@ main #sendForm .buttonStyleSignUp {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-main #sendForm .buttonStyleSignUp:hover {
+main #SignUp form #sending:hover {
   width: 350px;
   padding: 18px;
   background-image: linear-gradient(to top, white, grey);
   color: black;
+}
+main #sendForm {
+  width: 380px;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
 }
 main #sendForm .textAlert p {
   font-size: 19px;
 }
 main #sendForm .buttonStyleLogIn {
   all: unset;
-  font-size: 30px;
+  font-size: 24px;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 main #sendForm .buttonStyleLogIn:hover {
   color: rgb(165, 44, 235);

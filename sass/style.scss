@@ -25,7 +25,7 @@ main {
         justify-content: center;
         align-items: center;
         width: 500px;
-        height: 600px;
+        height: 700px;
         padding: 20px;
         background-image: linear-gradient(to top left, white, #949B9B);
         border: 2px solid white;
@@ -42,7 +42,7 @@ main {
 
         h1 {
             font-size: 70px;
-            margin-top: -20px;
+            margin-top: -75px;
         }
 
         h2 {
@@ -72,39 +72,45 @@ main {
                 background-color: #1B2230;
                 color: white;
 
-                &:focus{
+                &:focus {
                     box-shadow: 0 0 20px 1px gold;
                 }
+            }
+
+            #sending{
+                all: unset;
+                @include Button_send;
             }
 
         }
     }
 
-    #sendForm{
+    #sendForm {
         width: 380px;
+        height: 65px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        margin-top: 20px;
+    
 
 
-        .buttonStyleSignUp{
-            @include Button_send;
-        }
+      
 
-        .textAlert{
-            p{
+        .textAlert {
+            p {
                 font-size: 19px;
             }
 
         }
-        .buttonStyleLogIn{
+
+        .buttonStyleLogIn {
             all: unset;
-            font-size: 30px;
+            font-size: 24px;
             cursor: pointer;
+            margin-bottom: 15px;
 
-
-            &:hover{
+            &:hover {
                 color: rgb(165, 44, 235);
             }
         }
