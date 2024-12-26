@@ -110,5 +110,29 @@ main #sendForm .buttonStyleLogIn {
 main #sendForm .buttonStyleLogIn:hover {
   color: rgb(165, 44, 235);
 }
+main .msgContainer {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+main .msgContainer h2 {
+  font-size: 26px;
+  text-transform: capitalize;
+}
+main .msgContainer button {
+  width: 150px;
+  padding: 15px;
+  border: 2 px solid white;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(to top, #0A5EB0, #80C4E9);
+}
 
 /*# sourceMappingURL=style.css.map */
